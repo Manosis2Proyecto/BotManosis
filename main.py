@@ -7,6 +7,6 @@ import numpy as np
 from discord_easy_commands import EasyBot
 
 bot = EasyBot()
-bot.setCommand('!roblox',input('escribe un numero '))
+bot.setCommand('!roblox','wena xoro')
 
 bot.run(os.environ['TOKEN'])
