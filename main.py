@@ -35,7 +35,7 @@ async def asignaturas(ctx):
   embed = discord.Embed(title =f'{resultado}',
                         timestamp = datetime.datetime.utcnow(),
                         color = discord.Color.blue(),
-                        description ='hola')
+                        description ='[hola](https://www.youtube.com/watch?v=FqrlScCp1uc&ab_channel=UnPocoDeTodo)')
   embed.add_field(name = ':purple_square: Ecuaciones diferenciales' ,value = seleccion[0])
   embed.add_field(name = ':yellow_square: Electromagnetismo' , value = seleccion[1]) 
   embed.add_field(name = ':blue_square: Geometría' , value = seleccion[2])
