@@ -1,11 +1,11 @@
 import os
-from dotenv import load_dotenv
 import datetime
 import discord
 from discord.ext import commands
 from discord_components import *
+from dotenv import load_dotenv
 
-from embedfiles import embedfiles
+
 
 
 bot = commands.Bot(command_prefix='!') #prefijo para llamar al bot
@@ -36,7 +36,7 @@ async def cursos(ctx):
   embed.add_field(name = ':woman_scientist: Divulgación' ,value ='selecciona con **!div**')
   embed.add_field(name = ':teacher: Canales', value ='selecciona con **!can**')
   await ctx.send(embed=embed, delete_after=300)
-#cursos: ##############
+############cursos: ##############
 ### materias ###
 @bot.command(name='mat')
 async def materia(ctx):
@@ -142,7 +142,7 @@ async def caejercicio(ctx):
 
 
 
-my_secret = 'OTI5NDk5MTg5NzY1ODgxOTE3.YdoNlA.w9j7mGGzqn6_AkAqNnbQl0C20mA'
+my_secret = 'OTI5NDk5MTg5NzY1ODgxOTE3.YdoNlA.k0r60u6FoKUDFRyH78Rx5SPgH4c'
 bot.run(my_secret)
 
 
