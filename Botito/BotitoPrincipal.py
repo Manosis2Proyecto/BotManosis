@@ -4,7 +4,8 @@ from discord.ext import commands, tasks
 import numpy as np
 from itertools import cycle
 
-client = commands.Bot(command_prefix='-')
+TOKEN = 'OTI5OTgzNTYyNzcyNTMzMjUw.YdvQrw.QvawPE6lM-GfheDwf81cpdeyVyE'
+client = commands.Bot(command_prefix='!')
 status = cycle(['No olvidando(?' , 'Recordando lo que aprendí este año', 'Comiendo pasas'])
 
 #### EVENTOS ####
@@ -13,7 +14,7 @@ status = cycle(['No olvidando(?' , 'Recordando lo que aprendí este año', 'Comi
 @client.event
 async def on_ready():
     change_status.start()
-    #await client.change_presence(status=discord.Status.idle, activity=discord.Game('No olvidando'))
+
 
     print('Cerrado y cargado')
 
@@ -21,8 +22,7 @@ async def on_ready():
 async def on_command_error(ctx,error):
     if isinstance(error, commands.CommandNotFound):
         await ctx.send(f'Creo que no tengo ese comando:( ¿lo escribiste bien?')
-        await ctx.send('Si tienes dudas, estos son mis comandos :)')
-        await ctx.send(-edo)
+        await ctx.send('Si tienes dudas, escribe **!help** u **!hola** :)')
 
 ## Inicio del loop para cambiar el estado
 @tasks.loop(seconds=10)
@@ -53,4 +53,4 @@ for filename in os.listdir('./cogs'):
 
 
 
-client.run('OTI5OTgzNTYyNzcyNTMzMjUw.YdvQrw.zkLnjWCJcqFxPmT_RkX81AXHFF0')
+client.run(TOKEN)
