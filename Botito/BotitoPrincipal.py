@@ -4,7 +4,7 @@ from discord.ext import commands, tasks
 import numpy as np
 from itertools import cycle
 
-TOKEN = 'OTI5OTgzNTYyNzcyNTMzMjUw.YdvQrw.QvawPE6lM-GfheDwf81cpdeyVyE'
+TOKEN = 'TOKEN'
 client = commands.Bot(command_prefix='!')
 status = cycle(['No olvidando(?' , 'Recordando lo que aprendí este año', 'Comiendo pasas'])
 
