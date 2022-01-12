@@ -4,10 +4,22 @@ from discord.ext import commands, tasks
 import numpy as np
 from itertools import cycle
 
+
+# CODIGO TOKEN: (Leer Instrucciones.txt en INSTRUCCIONES_DE_INSTALACION)
+
 TOKEN = 'reemplazar-CODIGO_TOKEN'
+
+
+
+
+
 client = commands.Bot(command_prefix='!')
 status = cycle(
     ['No olvidando(?', 'Recordando lo que aprendí este año', 'Comiendo pasas'])
+
+
+
+
 
 #### EVENTOS ####
 ## Cuando inicia el bot, y el estado del bot

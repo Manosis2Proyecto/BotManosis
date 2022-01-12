@@ -1,3 +1,0 @@
-** Link de invitación (si es que no expira):
-https://discord.com/api/oauth2/authorize?client_id=929983562772533250&permissions=8&scope=bot
-

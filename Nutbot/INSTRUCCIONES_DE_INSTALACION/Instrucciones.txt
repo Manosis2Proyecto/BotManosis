@@ -1,0 +1,29 @@
+PASOS PARA ACTIVAR EL BOT:
+1.1. Reemplazar Codigo TOKEN en NutBot.py:
+
+En línea  de código:  TOKEN = 'reemplazar-CODIGO_TOKEN'
+
+CODIGO_TOKEN = OTI5OTgzNTYyNzcyNTMzMjUw.**(\a\)**YdvQrw.I-7XmVAVszAY9l9P**(\a\)**NahQTNvRF-c
+
+
+1.2- BORRAR LOS **(\a\)** (con paréntesis y asteriscos incluidos)
+
+
+
+2. Invitarlo a tu canal de Discord: 
+** Link de invitación:
+https://discord.com/api/oauth2/authorize?client_id=929983562772533250&permissions=8&scope=bot
+
+3. Ejecutar el archivo NutBot.py.py
+
+IMPORTANTE:
+Librerías necesarias a instalar en Python:
+
+- discord.py
+- discord.ext
+- numpy
+- os 
+- itertools
+
+
+
