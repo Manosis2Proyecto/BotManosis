@@ -1,0 +1,28 @@
+PASOS PARA ACTIVAR EL BOT:
+1. Reemplazar Codigo TOKEN:
+
+OTI5OTgzNTYyNzcyNTMzMjUw.(\a\)YdvQrw.I-7XmVAVszAY9l9P(\a\)NahQTNvRF-c
+
+
+1.1- BORRAR LOS (\a\) (con paréntesis incluido)
+Y copiar el código resultante en el archivo:
+BotitoPrincipal.py
+
+Línea donde dice TOKEN = 'reemplazar-CODIGO_TOKEN'
+
+2. Invitarlo a tu canal de Discord: 
+** Link de invitación:
+https://discord.com/api/oauth2/authorize?client_id=929983562772533250&permissions=8&scope=bot
+
+3. Correr el archivo BotitoPrincipal.Py
+
+Librerías necesarias a instalar en Python:
+
+- discord.py
+- discord.ext
+- numpy
+- os 
+- itertools
+
+
+
